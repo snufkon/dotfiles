@@ -1,0 +1,77 @@
+(source gnu)
+(source melpa)
+(source marmalade)
+
+;;; 
+;;; Setup
+;;;
+
+(depends-on "init-loader")
+(depends-on "cask")
+(depends-on "use-package")
+(depends-on "bind-key")
+(depends-on "exec-path-from-shell")
+
+
+;;; 
+;;; General
+;;;
+
+(depends-on "helm")
+(depends-on "helm-projectile")
+(depends-on "auto-complete")
+(depends-on "popwin")
+(depends-on "expand-region")
+(depends-on "multiple-cursors")
+(depends-on "yasnippet")
+
+
+;;; 
+;;; Clojure
+;;;
+
+(depends-on "clojure-mode")
+(depends-on "cider")
+;; (depends-on "cider" :git "https://github.com/clojure-emacs/cider")
+(depends-on "ac-cider")
+(depends-on "clojure-cheatsheet")
+(depends-on "rainbow-delimiters")
+(depends-on "paredit")
+(depends-on "clj-refactor")
+
+
+;;;
+;;; Program modes
+;;;
+
+(depends-on "js2-mode")
+(depends-on "yaml-mode")
+(depends-on "nyan-mode")
+(depends-on "web-mode")
+(depends-on "markdown-mode")
+(depends-on "scss-mode")
+
+;;;
+;;; Misc
+;;;
+(depends-on "recentf-ext")
+(depends-on "open-junk-file")
+(depends-on "cl-lib")
+(depends-on "color")
+
+
+
+(depends-on "dash")
+(depends-on "drag-stuff")
+(depends-on "f")
+(depends-on "flycheck")
+(depends-on "flycheck-cask")
+(depends-on "htmlize")
+(depends-on "idle-highlight-mode")
+(depends-on "magit")
+(depends-on "pallet")
+(depends-on "prodigy")
+(depends-on "projectile")
+(depends-on "s")
+(depends-on "smartparens")
+(depends-on "smex")
